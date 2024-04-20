@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Portal de Viajes</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <h1 class="header__title">Contacto</h1>
+      <nav class="header__navigation">
+        <a href="index.html" class="header__link">Volver al Inicio</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    <section class="content">
+      <p class="content__description">Para cualquier consulta o sugerencia, no dudes en ponerte en contacto con
+        nosotros.
+      </p>
+
+      <form class="contact-form" action="mailto:rtp.iea2010@gmail.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <input type="submit" value="Enviar">
+      </form>
+
+    </section>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <p class="footer__text">© 2024 Portal de Viajes. Todos los derechos reservados.</p>
+        <ul class="footer__social">
+          <li><a href="#" class="footer__social-link">Facebook</a></li>
+          <li><a href="#" class="footer__social-link">Twitter</a></li>
+          <li><a href="#" class="footer__social-link">Instagram</a></li>
+          <li><a href="#" class="footer__social-link">Github</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
